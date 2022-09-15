@@ -6,5 +6,6 @@ namespace AplicacionWebG3.Persistencia
     public interface ITipoDocumentoRepository
     {
         int Add(TipoDocumento tipoDocumento);
+        
     }
 }

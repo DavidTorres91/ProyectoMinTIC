@@ -1,0 +1,38 @@
+@page
+@model AplicacionWebG3.WebApp2.Pages.Gestion.listado
+@{
+   
+    ViewData["Title"] = "listado";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h1>Listado de personas</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th> 
+            <th>Direccion</th>  
+            <th>Genero</th>   
+            <th>Opciones</th>
+    </thead>
+    <tbody>
+        @foreach (var persona in Model.listaPersonas)
+        {
+            <tr>
+                <td>@persona.Id</td>
+                <td>@persona.Nombre</td>
+                <td>@persona.Apellido</td>
+                <td>@persona.Direccion</td>
+                <td>@persona.Genero</td>
+                <td>
+                    <a asp-page ="Gestion/Editar" asp-route-id = "@persona.Id">
+                    <i class="far fa-edit"></i></a>
+                    <a asp-page ="/Gestion/Editar" class="text-info">editar</a>
+                </td>
+            </tr>    
+        }               
+    </tbody>
+</table>

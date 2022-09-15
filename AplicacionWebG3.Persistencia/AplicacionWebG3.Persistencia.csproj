@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,5 +20,6 @@
   <ItemGroup>
     <ProjectReference Include="..\AplicacionWebG3.Dominio\AplicacionWebG3.Dominio.csproj" />
   </ItemGroup>
+
 
 </Project>

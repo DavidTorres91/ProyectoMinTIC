@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AplicacionWebG3.Dominio\AplicacionWebG3.Dominio.csproj" />
+    
     <ProjectReference Include="..\AplicacionWebG3.Persistencia\AplicacionWebG3.Persistencia.csproj" />
+    
+    <ProjectReference Include="..\AplicacionWebG3.Dominio\AplicacionWebG3.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,61 @@
+﻿@page
+@model AplicacionWebG3.WebApp.CrearModel
+@{
+    ViewData["Title"] = "Crear Usuario";
+}
+<head>
+<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/registro.cshtml.css" asp-append-version="true" />
+ </head>
+<div id="registro">
+    <div class="container">
+        <div id = "registro-row" class="row justify-content-center align-items-center">
+        <div id = "registro-col" class="col-auto p-5 text-center">
+            <form method="post">
+                <div id = "Registro-form" class="form-group">
+                <h3 class="text-center text-info">Registro</h3>
+                <label for="nombre">Nombres</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="digite nombre" minlength="3" maxlength="50">
+                </div>
+                <div class="form-group">
+                <label for="apellido">Apellidos</label>
+                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="digite Apellidos" minlength="3" maxlength="50">
+                </div>
+                <div class="form-group">
+                <label for="telefono">Direccion</label>
+                <input type="text" class="form-control" name="direccion" id="direccion" placeholder="digite direccion" minlength="3" maxlength="100">
+                </div>
+                <div class="form-group">
+                    <label for="genero">Genero</label>
+                    <select class="form-control" id="genero" name="genero">
+                        <option value ="" selected = "selected">Seleccione..</option>
+                        <option value ="0">Masculino</option>
+                        <option value = "1">Femenino</option>                
+                </select>
+                </div>
+                @*<div class="form-group">
+                    <label for="discriminador">Discriminador</label>
+                    <select class="form-control" id="discriminador" name="discriminador">
+                        <option value ="" selected = "selected">Seleccione..</option>
+                        <option value ="usuario">Usuario</option>
+                        <option value = "profesional">Profesional</option>                
+                </select>
+                </div> *@
+                <p></p>
+                <button type="submit" class = "btn btn-outline-primary">registrar</button>
+                
+                
+
+
+
+
+
+
+            </form>
+            
+
+        
+        </div>
+
+    </div>
+</div>

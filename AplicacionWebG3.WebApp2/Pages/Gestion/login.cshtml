@@ -1,0 +1,39 @@
+@page
+@model AplicacionWebG3.WebApp2.Pages.Gestion.login
+@{
+    ViewData["Title"] = "Acceso";
+}
+<head>
+<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/login.cshtml.css" asp-append-version="true" />
+ </head>
+
+ <div id="login">
+      
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Acceder</h3>
+                            <div class="form-group">
+                                <label for="usuario" class="text-info">Usuario:</label><br>
+                                <input type="text" name="usuario" id="usuario" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="clave" class="text-info">Clave:</label><br>
+                                <input type="text" name="clave" id="clave" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="recuerdame" class="text-info"><span>Recuerdame </span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="Ingresar" class="btn btn-info btn-md" value="Ingresar">
+                            </div>
+                            <div id="link-registro" class="text-right">
+                                <a asp-page ="/Gestion/Crear" class="text-info">Registrate aquí</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
