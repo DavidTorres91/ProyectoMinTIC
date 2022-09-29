@@ -9,13 +9,12 @@ namespace AplicacionWebG3.Persistencia
     {
         int Add(Persona persona);
         IEnumerable<Persona> GetAllPersonas();
-        Persona Update(Persona persona);
+        int Update(Persona persona);
         Persona Buscar(int id);
 
         int Delete(Persona persona);
         
-        Persona Getpersona (int idPersona);
-
+     
 
 
     }

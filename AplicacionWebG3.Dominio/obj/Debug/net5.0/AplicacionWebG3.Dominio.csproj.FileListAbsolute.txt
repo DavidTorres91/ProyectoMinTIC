@@ -5,8 +5,8 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\Debug\net5.0\AplicacionWebG3.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\bin\Debug\net5.0\AplicacionWebG3.Dominio.deps.json
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\bin\Debug\net5.0\AplicacionWebG3.Dominio.dll
-C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\bin\Debug\net5.0\ref\AplicacionWebG3.Dominio.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\bin\Debug\net5.0\AplicacionWebG3.Dominio.pdb
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\Debug\net5.0\AplicacionWebG3.Dominio.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\Debug\net5.0\ref\AplicacionWebG3.Dominio.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\Debug\net5.0\AplicacionWebG3.Dominio.pdb
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Dominio\obj\Debug\net5.0\refint\AplicacionWebG3.Dominio.dll

@@ -28,9 +28,10 @@
                 <td>@persona.Direccion</td>
                 <td>@persona.Genero</td>
                 <td>
-                    <a asp-page ="Gestion/Editar" asp-route-id = "@persona.Id">
-                    <i class="far fa-edit"></i></a>
-                    <a asp-page ="/Gestion/Editar" class="text-info">editar</a>
+                    
+                    <a class="text-info" asp-page="/Gestion/Editar" asp-route-Id="@persona.Id">
+                                    <i class="far fa-edit"></i></a>
+                              
                 </td>
             </tr>    
         }               

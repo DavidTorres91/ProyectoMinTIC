@@ -31,7 +31,7 @@ namespace AplicacionWebG3.Consola
                 Nombre = "jhoana",
                 Apellido = "martinez",
                 Direccion = "calle 3 # 24483",
-                FechaNacimiento = "10-09-2000",
+                FechaNacimiento =  Convert.ToDateTime("10-09-2000"),
                 Genero = Genero.Femenino
 
 

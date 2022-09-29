@@ -36,33 +36,13 @@ namespace AplicacionWebG3.Persistencia
             return _appContext.personas;
 
         }
-
-        Persona IPersonaRepository.Getpersona (int idPersona)
-        {
-            return  _appContext.personas.FirstOrDefault(p => p.Id == idPersona);
+        
+        int IPersonaRepository.Update(Persona persona){
+            _appContext.personas.Update(persona);
+            return _appContext.SaveChanges();
         }
-
-        Persona IPersonaRepository.Update(Persona persona)
-        {
-            var persoEncontrada = _appContext.personas.FirstOrDefault(p => p.Id == persona.Id);
-            if(persoEncontrada != null)
-            {
-                persoEncontrada.Nombre = persona.Nombre;
-                persoEncontrada.Apellido = persona.Apellido;
-                persoEncontrada.Contacto = persona.Contacto;
-                persoEncontrada.Direccion = persona.Direccion;
-                persoEncontrada.FechaNacimiento = persona.FechaNacimiento;
-                persoEncontrada.Genero = persona.Genero;
-                persoEncontrada.SisPago = persona.SisPago;
-                persoEncontrada.TipoDocumento = persona.TipoDocumento;
-                
-                _appContext.SaveChanges();
-      
-        }
-        return persoEncontrada;
 
 
     
     }
-}
 }

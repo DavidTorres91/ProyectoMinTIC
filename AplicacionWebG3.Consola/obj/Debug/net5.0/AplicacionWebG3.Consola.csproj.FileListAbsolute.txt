@@ -3,7 +3,6 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\AplicacionWebG3.Consola.runtimeconfig.json
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\AplicacionWebG3.Consola.runtimeconfig.dev.json
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\AplicacionWebG3.Consola.dll
-C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\ref\AplicacionWebG3.Consola.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\AplicacionWebG3.Consola.pdb
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\Humanizer.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
@@ -65,3 +64,5 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\Debug\net5.0\ref\AplicacionWebG3.Consola.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\Debug\net5.0\AplicacionWebG3.Consola.pdb
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\Debug\net5.0\AplicacionWebG3.Consola.genruntimeconfig.cache
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\Debug\net5.0\AplicacionWebG3.Consola.csproj.AssemblyReference.cache
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.Consola\obj\Debug\net5.0\refint\AplicacionWebG3.Consola.dll

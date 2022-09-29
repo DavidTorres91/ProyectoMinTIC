@@ -16,9 +16,8 @@ namespace AplicacionWebG3.WebApp2.Pages.Gestion
         {
             _logger = logger;
         }
+       
 
-        public void OnGet()
-        {
-        }
+       
     }
 }

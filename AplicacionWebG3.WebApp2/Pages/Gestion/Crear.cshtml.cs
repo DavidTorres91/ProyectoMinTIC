@@ -28,13 +28,14 @@ namespace AplicacionWebG3.WebApp
             var direccion = Request.Form["direccion"];
             var genero = Request.Form["genero"];
             var discriminador = Request.Form["discriminador"];
+            var fechadenacimiento = Request.Form["FechaNacimiento"];
 
             var persona = new Persona{
                 Nombre = nombre,
                 Apellido = apellido,
                 Direccion = direccion,
                 Genero = (genero == 0 ? Genero.Masculino : Genero.Femenino),
-                //Discriminator = discriminador
+                FechaNacimiento = Convert.ToDateTime(fechadenacimiento)
             };
 
             var result = _personaRepository.Add(persona);

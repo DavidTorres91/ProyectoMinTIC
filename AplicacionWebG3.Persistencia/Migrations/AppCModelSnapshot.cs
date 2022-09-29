@@ -39,8 +39,8 @@ namespace AplicacionWebG3.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FechaNacimiento")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("Genero")
                         .HasColumnType("int");
@@ -63,6 +63,56 @@ namespace AplicacionWebG3.Persistencia.Migrations
                     b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
                 });
 
+            modelBuilder.Entity("AplicacionWebG3.Dominio.Profesional", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Apellido")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Calendario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Contacto")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Direccion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Especialidad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NumLicencia")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SisPago")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TipoDocumentoId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("expLicencia")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TipoDocumentoId");
+
+                    b.ToTable("Profesionales");
+                });
+
             modelBuilder.Entity("AplicacionWebG3.Dominio.TipoDocumento", b =>
                 {
                     b.Property<int>("Id")
@@ -81,32 +131,12 @@ namespace AplicacionWebG3.Persistencia.Migrations
                     b.ToTable("TipoDocumentos");
                 });
 
-            modelBuilder.Entity("AplicacionWebG3.Dominio.Profesional", b =>
-                {
-                    b.HasBaseType("AplicacionWebG3.Dominio.Persona");
-
-                    b.Property<string>("Calendario")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Licencia")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NumLicencia")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("expLicencia")
-                        .HasColumnType("datetime2");
-
-                    b.HasDiscriminator().HasValue("Profesional");
-                });
-
             modelBuilder.Entity("AplicacionWebG3.Dominio.Usuario", b =>
                 {
                     b.HasBaseType("AplicacionWebG3.Dominio.Persona");
 
                     b.Property<string>("Calendario")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Usuario_Calendario");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Servicio")
                         .HasColumnType("nvarchar(max)");
@@ -115,6 +145,15 @@ namespace AplicacionWebG3.Persistencia.Migrations
                 });
 
             modelBuilder.Entity("AplicacionWebG3.Dominio.Persona", b =>
+                {
+                    b.HasOne("AplicacionWebG3.Dominio.TipoDocumento", "TipoDocumento")
+                        .WithMany()
+                        .HasForeignKey("TipoDocumentoId");
+
+                    b.Navigation("TipoDocumento");
+                });
+
+            modelBuilder.Entity("AplicacionWebG3.Dominio.Profesional", b =>
                 {
                     b.HasOne("AplicacionWebG3.Dominio.TipoDocumento", "TipoDocumento")
                         .WithMany()

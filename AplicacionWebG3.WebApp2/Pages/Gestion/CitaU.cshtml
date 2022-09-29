@@ -1,0 +1,78 @@
+@page
+@model AplicacionWebG3.WebApp2.Pages.Gestion.CitaU
+
+
+<head>
+<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/registro.cshtml.css" asp-append-version="true" />
+ </head>
+ 
+<div id="calendario"></div>
+
+<div id="formularioRegistrar">
+    <table style="width:100%;border-collapse: separate; border-spacing: 6px;">
+        <tr>
+            <td class="align-right">
+                <label for="identificacion">Cedula</label>
+            </td>
+           <td colspan="3">
+                <input type="text" class="form-control" id="identificacion"  />
+            </td>
+        </tr>
+        <tr>
+            <td class="align-right">
+                <label for="nombre"> Nombres:</label>
+            </td>
+            <td colspan="3">
+                <input type="text" class="form-control" id="nombre" disabled />
+            </td>
+        </tr>
+          <tr>
+            <td class="align-right">
+                <label for="apellido"> Apellidos:</label>
+            </td>
+            <td colspan="3">
+                <input type="text" class="form-control" id="apellido" disabled />
+            </td>
+        </tr>
+        <tr>
+            <td class="align-right">
+                <label for="Profesional">Profesional: </label>
+            </td>
+            <td colspan="3">
+                <input type="text" class="form-control" id="Profesioal" value="@ViewBag.Profesional" disabled />
+            </td>
+        </tr>
+        <tr>
+            <td class="align-right">
+                <label for="FechaAtencion">Fecha Atención: </label>
+            </td>
+            <td colspan="3">
+                <input type="Date" class="form-control" id="FechaAtencion" />
+            </td>
+        </tr>
+        <tr>
+            <td class="align-right">
+                <label for="txtHoraInicio">Hora Inicio: </label>
+            </td>
+            <td>
+                <input type="time" class="form-control" id="txtHoraInicio" />
+            </td>
+            <td class="align-right">
+                <label for="txtHoraFin">Hora Fin: </label>
+            </td>
+            <td>
+                <input type="time" class="form-control" id="txtHoraFin" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <div class="toolbar" style="float: right;">
+        <button type="button" id="btnGuardar">
+            <i class="fa fa-fw fa-save"></i>Guardar
+        </button>
+        <button type="button" id="btnCancelar">
+            <i class="fa fa-fw fa-history"></i>Cancelar
+        </button>
+    </div>
+</div>

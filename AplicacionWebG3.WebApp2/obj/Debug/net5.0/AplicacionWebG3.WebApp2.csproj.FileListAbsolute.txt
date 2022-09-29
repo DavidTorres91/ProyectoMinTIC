@@ -5,7 +5,6 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.runtimeconfig.json
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.runtimeconfig.dev.json
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.dll
-C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\ref\AplicacionWebG3.WebApp2.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.pdb
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.Views.dll
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\bin\Debug\net5.0\AplicacionWebG3.WebApp2.Views.pdb
@@ -49,7 +48,6 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\AplicacionWebG3.WebApp2.RazorAssemblyInfo.cache
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\AplicacionWebG3.WebApp2.RazorAssemblyInfo.cs
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\staticwebassets\AplicacionWebG3.WebApp2.StaticWebAssets.Manifest.cache
-C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\staticwebassets\AplicacionWebG3.WebApp2.StaticWebAssets.xml
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\scopedcss\bundle\AplicacionWebG3.WebApp2.styles.css
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\AplicacionWebG3.WebApp2.TagHelpers.input.cache
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\AplicacionWebG3.WebApp2.TagHelpers.output.cache
@@ -74,3 +72,7 @@ C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Gestion\Editar.cshtml.g.cs
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Gestion\CitaU.cshtml.g.cs
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Gestion\RegistroC.cshtml.g.cs
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\refint\AplicacionWebG3.WebApp2.dll
+C:\Users\nemes\Documents\Aplicacion\AplicacionWebG3\AplicacionWebG3.WebApp2\obj\Debug\net5.0\Razor\Pages\Gestion\CrearPro.cshtml.g.cs
